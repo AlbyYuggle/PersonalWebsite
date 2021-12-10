@@ -49,7 +49,7 @@ const MainPage = () => {
         >
           <TypeAnimation
             className={classes.typeName}
-            sequence={["Albert Xiao", 1500]}
+            sequence={["", 500, "Albert Xiao", 1500]}
             wrapper="p"
             cursor={false}
             repeat={2}
@@ -59,7 +59,7 @@ const MainPage = () => {
             className={classes.typeDes}
             sequence={[
               "",
-              1505,
+              2010,
               "Software Engineer. Cooking Enthusiast. Pianist.",
               2500,
             ]}
