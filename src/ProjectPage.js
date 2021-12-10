@@ -10,7 +10,7 @@ import {
   Typography,
   Tooltip,
 } from "@mui/material";
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { makeStyles } from "@mui/styles";
 
@@ -99,7 +99,6 @@ const ProjectPage = () => {
     },
   ];
 
-  console.log(projects);
   const classes = useStyles();
 
   return (
