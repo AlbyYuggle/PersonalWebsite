@@ -36,13 +36,70 @@ const useStyles = makeStyles({
 });
 
 const ProjectPage = () => {
-  const [projects, setProjects] = useState([]);
+  /*const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/projects")
+    fetch("http://localhost:8000/projects.json")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
+      .then((data) => setProjects(data.projects));
+  }, []);*/
+  const projects = [
+    {
+      src: "./projectphotos/passportPhoto.png",
+      title: "Passport Photo Generator",
+      description:
+        "A website that generates valid passport photos given any reasonable base image. Rotates and centers image, then crops background using deep learning.",
+      used: "Python (OpenCV), Javascript (Node, Express), HTML/CSS",
+      link: "https://github.com/AlbyYuggle/passport-photo-generator",
+      id: 0,
+    },
+    {
+      src: "./projectphotos/pure.png",
+      title: "Leveraged ETFs",
+      description:
+        "My research at PURE @ UIUC involved testing a hedging strategy by backsimulating stocks, backtesting the trading algorithm, and incorporating into a trading portfolio.",
+      used: "Python (Numpy, Pandas, Pytorch, Matplotlib)",
+      link: "https://github.com/AlbyYuggle/PURE-ETF",
+      id: 1,
+    },
+    {
+      src: "./projectphotos/fallingFruit.jpeg",
+      title: "Falling Fruit",
+      description:
+        "A non-profit public database for foragers and gatherers. I worked on a team to rebuild the front-end for optimization/scalability.",
+      used: "Javascript (React, Redux)",
+      link: "https://github.com/hack4impact-uiuc/falling-fruit",
+      id: 2,
+    },
+    {
+      src: "./projectphotos/escapeMaze.png",
+      title: "Escape the Maze Game",
+      description:
+        "Run away! A maze game where players spawn in a randomly regenerating maze with enemy AI chasing the player down.",
+      used: "C++ (OpenGL)",
+      link: "https://github.com/AlbyYuggle/EscapeMaze",
+      id: 3,
+    },
+    {
+      src: "./projectphotos/BattlecodeLogo.jpg",
+      title: "MIT Battlecode",
+      description:
+        "Real time strategy game tournament where teams compete to build the best AI to play the game. Our team placed 22nd/550 and 4th/52.",
+      used: "Java",
+      link: "https://github.com/AlbyYuggle/Fandead",
+      id: 4,
+    },
+    {
+      src: "./projectphotos/discord.png",
+      title: "Discord Registration Bot",
+      description:
+        "Club member registration bot for the Absolute Coding Club discord. This bot has registered hundreds of users.",
+      used: "Python (Discord.py)",
+      link: "https://github.com/AlbyYuggle/RegistrationBot",
+      id: 5,
+    },
+  ];
 
+  console.log(projects);
   const classes = useStyles();
 
   return (
