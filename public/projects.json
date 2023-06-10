@@ -33,7 +33,7 @@
       "id": 3
     },
     {
-      "src": "./projectphotos/BattlecodeLogo.jpg",
+      "src": "./projectphotos/BattlecodeLogo.webp",
       "title": "MIT Battlecode",
       "description": "Real time strategy game tournament where teams compete to build the best AI to play the game. Our team placed 22nd/550 and 4th/52.",
       "used": "Java",

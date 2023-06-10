@@ -63,16 +63,15 @@ const AboutPage = () => {
           Illinois Urbana-Champaign.
         </Typography>
         <Typography className={classes.ptext} variant="h6">
-          My interests are Software Engineering, Machine Learning, and Finance,
+          My interests are Software Engineering, Computer Vision Research, and Machine Learning Engineering,
           and my hobbies include biking, cooking, and music.
         </Typography>
         <Typography className={classes.ptext} variant="h6">
-          I have previously worked at: Accurant Biotech (SWE Intern), University
-          of Illinois (Undergraduate Researcher)
+          I have previously worked at: Accurant Biotech (SWE Intern), University of Illinois (Course Staff, Developer),
+          Hack4Impact (Developer), Argonne National Labs (Research Intern), and Aechelon Technology (SWE Intern).
         </Typography>
         <Typography className={classes.ptext} variant="h6">
-          I'm currently working for: University of Illinois (Course Staff),
-          Hack4Impact (Software Developer)
+          I'm currently working for: Professor Kevin CC Chang (Research Assistant), Professor Shenlong Wang (Research Assistant), and AbbVie (SWE Intern)
         </Typography>
         <Container
           sx={{

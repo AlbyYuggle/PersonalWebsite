@@ -3,17 +3,18 @@ import { Container, Box } from "@mui/material";
 import Gallery from "react-photo-gallery";
 
 const PhotoPage = () => {
-  const imgList = [
-    "otherphotos/IMG_3284.JPG",
-    "otherphotos/IMG_3295.JPG",
-    "otherphotos/IMG_3308.JPG",
-    "otherphotos/IMG_3347.JPG",
-    "otherphotos/IMG_3316.JPG",
-    "otherphotos/IMG_3373.JPG",
-    "otherphotos/IMG_3400.JPG",
-    "otherphotos/IMG_3432.JPG",
-    "otherphotos/IMG_3586.JPG",
-  ];
+  // const imgList = [
+  //   "otherphotos/IMG_3284.webp",
+  //   "otherphotos/IMG_3295.webp",
+  //   "otherphotos/IMG_3308.webp",
+  //   "otherphotos/IMG_3347.webp",
+  //   "otherphotos/IMG_3316.webp",
+  //   "otherphotos/IMG_3373.webp",
+  //   "otherphotos/IMG_3400.webp",
+  //   "otherphotos/IMG_3432.webp",
+  //   "otherphotos/IMG_3586.webp",
+  // ];
+  const imgList = [];
 
   return (
     <Container

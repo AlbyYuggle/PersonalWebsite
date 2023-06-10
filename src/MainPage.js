@@ -6,7 +6,7 @@ import TypeAnimation from "react-type-animation";
 
 const useStyles = makeStyles({
   wpp: {
-    backgroundImage: `url(${"./wallpaper2.jpg"})`,
+    backgroundImage: `url(${"./wallpaper2.webp"})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "90vh",

@@ -93,7 +93,7 @@ const NavBar = ({ currentTab }) => {
             currentTab === "photos" ? classes.navBoxCur : classes.navBox
           }
           onClick={(event) => {
-            window.location = "/photos";
+            window.location = "/";
           }}
         >
           <Typography

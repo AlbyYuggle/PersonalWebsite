@@ -9,6 +9,7 @@ import {
   Box,
   Typography,
   Tooltip,
+  Link,
 } from "@mui/material";
 //import { useEffect, useState } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -44,58 +45,85 @@ const ProjectPage = () => {
   }, []);*/
   const projects = [
     {
-      src: "./projectphotos/passportPhoto.png",
+      src: "./projectphotos/cnnrealoutex.webp",
+      title: "Neural Music Transcription with Spatiotemporal Vision Models",
+      description:
+        "An experiment with different deep learning models to transcribe music audio files to MIDI files. Check out the report:",
+      used: "Python (PyTorch)",
+      link: "https://github.com/AlbyYuggle/NeuralMusicTranscription",
+      id: 0,
+    },
+    {
+      src: "./projectphotos/lidar.webp",
+      title: "Exploring Multi-Modal Fusion in Perception for Autonomous Vehicles",
+      description:
+        "An experiment with three different YOLO-DetNet based models to fuse camera and lidar data for object detection to explore data, feature, and decision level fusion models in the scope of machine perception.",
+      used: "Python (PyTorch)",
+      link: "https://github.com/AlbyYuggle/exploring-multimodal-perception-detection",
+      id: 1,
+    },
+    {
+      src: "./projectphotos/pegasus.webp",
+      title: "Text Summarization Extension",
+      description:
+        "A Chrome Extension that uses a fine-tuned PEGASUS model to summarize the content on the webpage.",
+      used: "Python (PyTorch)",
+      link: "https://github.com/AlbyYuggle/text-summarization-extension",
+      id: 2,
+    },
+    {
+      src: "./projectphotos/passportPhoto.webp",
       title: "Passport Photo Generator",
       description:
         "A website that generates valid passport photos given any reasonable base image. Rotates and centers image, then crops background using deep learning.",
       used: "Python (OpenCV), Javascript (Node, Express), HTML/CSS",
       link: "https://github.com/AlbyYuggle/passport-photo-generator",
-      id: 0,
+      id: 3,
     },
     {
-      src: "./projectphotos/pure.png",
+      src: "./projectphotos/pure.webp",
       title: "Leveraged ETFs",
       description:
         "My research at PURE @ UIUC involved testing a hedging strategy by backsimulating stocks, backtesting the trading algorithm, and incorporating into a trading portfolio.",
       used: "Python (Numpy, Pandas, Pytorch, Matplotlib)",
       link: "https://github.com/AlbyYuggle/PURE-ETF",
-      id: 1,
+      id: 4,
     },
     {
-      src: "./projectphotos/fallingFruit.jpeg",
+      src: "./projectphotos/fallingFruit.webp",
       title: "Falling Fruit",
       description:
         "A non-profit public database for foragers and gatherers. I worked on a team to rebuild the front-end for optimization/scalability.",
       used: "Javascript (React, Redux)",
       link: "https://github.com/hack4impact-uiuc/falling-fruit",
-      id: 2,
+      id: 5,
     },
     {
-      src: "./projectphotos/escapeMaze.png",
+      src: "./projectphotos/escapeMaze.webp",
       title: "Escape the Maze Game",
       description:
         "Run away! A maze game where players spawn in a randomly regenerating maze with enemy AI chasing the player down.",
       used: "C++ (OpenGL)",
       link: "https://github.com/AlbyYuggle/EscapeMaze",
-      id: 3,
+      id: 6,
     },
     {
-      src: "./projectphotos/BattlecodeLogo.jpg",
+      src: "./projectphotos/BattlecodeLogo.webp",
       title: "MIT Battlecode",
       description:
         "Real time strategy game tournament where teams compete to build the best AI to play the game. Our team placed 22nd/550 and 4th/52.",
       used: "Java",
       link: "https://github.com/AlbyYuggle/Fandead",
-      id: 4,
+      id: 7,
     },
     {
-      src: "./projectphotos/discord.png",
+      src: "./projectphotos/discord.webp",
       title: "Discord Registration Bot",
       description:
         "Club member registration bot for the Absolute Coding Club discord. This bot has registered hundreds of users.",
       used: "Python (Discord.py)",
       link: "https://github.com/AlbyYuggle/RegistrationBot",
-      id: 5,
+      id: 8,
     },
   ];
 
